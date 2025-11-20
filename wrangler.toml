@@ -1,0 +1,13 @@
+name = "cloudflare-dyndns-worker"
+main = "src/index.js"
+compatibility_date = "2024-11-01"
+
+[vars]
+# Configure your DNS entries to update (comma-separated)
+# DNS_ENTRIES = "home.example.com,vpn.example.com"
+# ZONE_ID = "your-zone-id"
+
+# Set these as secrets using: wrangler secret put <KEY>
+# CF_API_TOKEN - Cloudflare API token with DNS edit permissions
+# DDNS_USERNAME - Username for Fritzbox authentication
+# DDNS_PASSWORD - Password for Fritzbox authentication
