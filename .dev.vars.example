@@ -1,0 +1,9 @@
+# Example environment configuration
+# Copy this file to .dev.vars for local development
+
+# Cloudflare API Token (requires DNS Edit permission)
+CF_API_TOKEN=your_cloudflare_api_token_here
+
+# DDNS Authentication credentials
+DDNS_USERNAME=your_username_here
+DDNS_PASSWORD=your_password_here
